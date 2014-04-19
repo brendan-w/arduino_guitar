@@ -1,5 +1,4 @@
 #include "dsp.h"
-#include "math.h"
 
 #ifndef cbi
 #define cbi(sfr, bit) (_SFR_BYTE(sfr) &= ~_BV(bit))
